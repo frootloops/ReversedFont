@@ -1,6 +1,6 @@
 ### ReversedFont
 
-That code helps render reversed font.
+That code renders any font as reversed font.
 
 <img src="https://raw.githubusercontent.com/frootloops/ReversedFont/master/demo.gif" width="250">
 
@@ -25,6 +25,7 @@ class TransparentLayoutManager: NSLayoutManager {
     
 }
 ```
+
 2. Create a textview and use it
 ```swift
 private let textView: UITextView = {
