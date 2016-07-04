@@ -12,6 +12,7 @@
 		B81C7C7B1D2ABB2A0025BFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81C7C791D2ABB2A0025BFC5 /* Main.storyboard */; };
 		B81C7C7D1D2ABB2A0025BFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81C7C7C1D2ABB2A0025BFC5 /* Assets.xcassets */; };
 		B81C7C801D2ABB2A0025BFC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81C7C7E1D2ABB2A0025BFC5 /* LaunchScreen.storyboard */; };
+		B81C7C881D2ABB750025BFC5 /* TransparentLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C7C871D2ABB750025BFC5 /* TransparentLayoutManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B81C7C7C1D2ABB2A0025BFC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B81C7C7F1D2ABB2A0025BFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B81C7C811D2ABB2A0025BFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B81C7C871D2ABB750025BFC5 /* TransparentLayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentLayoutManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B81C7C7C1D2ABB2A0025BFC5 /* Assets.xcassets */,
 				B81C7C7E1D2ABB2A0025BFC5 /* LaunchScreen.storyboard */,
 				B81C7C811D2ABB2A0025BFC5 /* Info.plist */,
+				B81C7C871D2ABB750025BFC5 /* TransparentLayoutManager.swift */,
 			);
 			path = ReversedFont;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81C7C881D2ABB750025BFC5 /* TransparentLayoutManager.swift in Sources */,
 				B81C7C781D2ABB2A0025BFC5 /* ViewController.swift in Sources */,
 				B81C7C761D2ABB2A0025BFC5 /* AppDelegate.swift in Sources */,
 			);
